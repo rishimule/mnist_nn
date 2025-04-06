@@ -72,6 +72,16 @@ mnist_nn/
    gunzip *.gz
    cd ../../
    ```
+   or
+   ```bash
+   cd data/mnist
+   wget https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+   wget https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+   wget https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+   wget https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+   gunzip *.gz
+   cd ../../
+   ```
 
 ## Usage
 
@@ -125,6 +135,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Acknowledgements
 
-- [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
+- [MNIST Dataset (lecun)](http://yann.lecun.com/exdb/mnist/), [2 (stackOverfow)](https://stackoverflow.com/a/66820249)
 - This project was developed as an educational tool to demonstrate building neural networks from scratch.
 ```
