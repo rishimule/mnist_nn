@@ -6,7 +6,7 @@ This document provides an in-depth look at the design decisions, module interact
 ## Project Structure
 The project is organized as follows:
 ```
-mnist_nn_project/
+mnist_nn/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
