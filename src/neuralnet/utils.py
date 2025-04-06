@@ -5,44 +5,58 @@ This module includes utility functions for the neural network, including weight 
 data normalization, and label preprocessing.
 """
 
+from typing import Tuple
 import numpy as np
 
-def initialize_weights(shape, scale=0.01):
+def initialize_weights(shape: Tuple[int, int], scale: float = 0.01) -> np.ndarray:
     """
     Initialize weights with small random values.
 
     Args:
-        shape (tuple): Shape of the weight matrix.
+        shape (Tuple[int, int]): Shape of the weight matrix.
         scale (float): Scaling factor for the random values.
 
     Returns:
-        numpy.ndarray: Initialized weights.
+        np.ndarray: Initialized weights.
     """
-    return np.random.randn(*shape) * scale
+    try:
+        return np.random.randn(*shape) * scale
+    except Exception as e:
+        raise RuntimeError(f"Error initializing weights with shape {shape}: {e}")
 
-def normalize_data(data):
+def normalize_data(data: np.ndarray) -> np.ndarray:
     """
     Normalize data to have values between 0 and 1.
 
     Args:
-        data (numpy.ndarray): Input data.
+        data (np.ndarray): Input data.
 
     Returns:
-        numpy.ndarray: Normalized data.
+        np.ndarray: Normalized data.
     """
-    return data / 255.0
+    if not isinstance(data, np.ndarray):
+        raise ValueError("Data must be a numpy array.")
+    try:
+        return data / 255.0
+    except Exception as e:
+        raise RuntimeError(f"Error normalizing data: {e}")
 
-def one_hot_encode(labels, num_classes):
+def one_hot_encode(labels: np.ndarray, num_classes: int) -> np.ndarray:
     """
     One-hot encode label data.
 
     Args:
-        labels (numpy.ndarray): Array of labels.
+        labels (np.ndarray): Array of labels.
         num_classes (int): Number of classes.
 
     Returns:
-        numpy.ndarray: One-hot encoded labels.
+        np.ndarray: One-hot encoded labels.
     """
-    encoded = np.zeros((labels.size, num_classes))
-    encoded[np.arange(labels.size), labels] = 1
-    return encoded
+    if not isinstance(labels, np.ndarray):
+        raise ValueError("Labels must be a numpy array.")
+    try:
+        encoded = np.zeros((labels.size, num_classes))
+        encoded[np.arange(labels.size), labels] = 1
+        return encoded
+    except Exception as e:
+        raise RuntimeError(f"Error in one-hot encoding: {e}")

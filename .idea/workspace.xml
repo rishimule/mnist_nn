@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="655a8aae-a610-4e7f-9414-919650f09817" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/neuralnet/activations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/neuralnet/activations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/neuralnet/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/neuralnet/layers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/neuralnet/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/neuralnet/losses.py" afterDir="false" />
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743958367303</updated>
       <workItem from="1743958368416" duration="644000" />
-      <workItem from="1743959056597" duration="410000" />
+      <workItem from="1743959056597" duration="719000" />
     </task>
     <servers />
   </component>
