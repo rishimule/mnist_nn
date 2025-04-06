@@ -1,4 +1,3 @@
-```markdown
 # MNIST Neural Network Project
 
 This project builds a neural network from scratch in Python to recognize handwritten digits from the MNIST dataset. The code is organized in a modular fashion, making it easy to reuse and extend in future projects.
