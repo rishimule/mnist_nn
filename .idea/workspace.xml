@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="655a8aae-a610-4e7f-9414-919650f09817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataset/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+    <list default="true" id="655a8aae-a610-4e7f-9414-919650f09817" name="Changes" comment="Updated Project Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/design_documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design_documentation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/mnist_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/mnist_nn.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/test_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +131,73 @@
       <option name="presentableId" value="Default" />
       <updated>1743958367303</updated>
       <workItem from="1743958368416" duration="644000" />
-      <workItem from="1743959056597" duration="3074000" />
+      <workItem from="1743959056597" duration="4073000" />
     </task>
+    <task id="LOCAL-00001" summary="Added code to handle data loading and pre-processing">
+      <option name="closed" value="true" />
+      <created>1743963499765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963499765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added unit tests to test the network">
+      <option name="closed" value="true" />
+      <created>1743963534648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963534648</updated>
+    </task>
+    <task id="LOCAL-00003" summary="miscellaneous">
+      <option name="closed" value="true" />
+      <created>1743963600011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963600011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added script to train and test the network">
+      <option name="closed" value="true" />
+      <created>1743963628288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963628288</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Interactive Jupyter notebook to train and test the network">
+      <option name="closed" value="true" />
+      <created>1743963923661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963923661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated Project Documentation">
+      <option name="closed" value="true" />
+      <created>1743963941844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963941845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Project Documentation">
+      <option name="closed" value="true" />
+      <created>1743963983671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743963983671</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated Project Documentation">
+      <option name="closed" value="true" />
+      <created>1743964261933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743964261933</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +213,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added code to handle data loading and pre-processing" />
+    <MESSAGE value="Added unit tests to test the network" />
+    <MESSAGE value="miscellaneous" />
+    <MESSAGE value="Added script to train and test the network" />
+    <MESSAGE value="Added Interactive Jupyter notebook to train and test the network" />
+    <MESSAGE value="Updated Project Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Project Documentation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NN$train.coverage" NAME="train Coverage Results" MODIFIED="1743962051876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
