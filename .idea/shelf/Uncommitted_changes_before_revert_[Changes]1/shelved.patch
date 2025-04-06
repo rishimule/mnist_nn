@@ -1,0 +1,47 @@
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
++++ /dev/null	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/NN.iml" filepath="$PROJECT_DIR$/.idea/NN.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/NN.iml
+===================================================================
+diff --git a/.idea/NN.iml b/.idea/NN.iml
+deleted file mode 100644
+--- a/.idea/NN.iml	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
++++ /dev/null	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="NN" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
++++ /dev/null	(revision cf50179ac96be1c0d30aab04ee56a9c257955f93)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
