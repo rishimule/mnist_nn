@@ -136,4 +136,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 - [MNIST Dataset (lecun)](http://yann.lecun.com/exdb/mnist/), [2 (stackOverfow)](https://stackoverflow.com/a/66820249)
 - This project was developed as an educational tool to demonstrate building neural networks from scratch.
-```
+
